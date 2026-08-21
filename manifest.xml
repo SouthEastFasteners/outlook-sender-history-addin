@@ -12,12 +12,12 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Sender History" />
   <Description DefaultValue="Shows the last 6 emails from the sender of the message you're reading." />
-  <IconUrl DefaultValue="https://localhost:3000/assets/icon-64.png" />
-  <HighResolutionIconUrl DefaultValue="https://localhost:3000/assets/icon-128.png" />
+  <IconUrl DefaultValue="https://southeastfasteners.github.io/outlook-sender-history-addin/assets/icon-64.png" />
+  <HighResolutionIconUrl DefaultValue="https://southeastfasteners.github.io/outlook-sender-history-addin/assets/icon-128.png" />
   <SupportUrl DefaultValue="https://yourcompany.com/support" />
 
   <AppDomains>
-    <AppDomain>https://localhost:3000</AppDomain>
+    <AppDomain>https://southeastfasteners.github.io</AppDomain>
   </AppDomains>
 
   <Hosts>
@@ -33,7 +33,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://localhost:3000/taskpane.html" />
+        <SourceLocation DefaultValue="https://southeastfasteners.github.io/outlook-sender-history-addin/taskpane.html" />
         <RequestedHeight>450</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -92,13 +92,13 @@
 
       <Resources>
         <bt:Images>
-          <bt:Image id="Icon.16x16" DefaultValue="https://localhost:3000/assets/icon-16.png" />
-          <bt:Image id="Icon.32x32" DefaultValue="https://localhost:3000/assets/icon-32.png" />
-          <bt:Image id="Icon.80x80" DefaultValue="https://localhost:3000/assets/icon-80.png" />
+          <bt:Image id="Icon.16x16" DefaultValue="https://southeastfasteners.github.io/outlook-sender-history-addin/assets/icon-16.png" />
+          <bt:Image id="Icon.32x32" DefaultValue="https://southeastfasteners.github.io/outlook-sender-history-addin/assets/icon-32.png" />
+          <bt:Image id="Icon.80x80" DefaultValue="https://southeastfasteners.github.io/outlook-sender-history-addin/assets/icon-80.png" />
         </bt:Images>
         <bt:Urls>
-          <bt:Url id="Commands.Url" DefaultValue="https://localhost:3000/commands.html" />
-          <bt:Url id="Taskpane.Url" DefaultValue="https://localhost:3000/taskpane.html" />
+          <bt:Url id="Commands.Url" DefaultValue="https://southeastfasteners.github.io/outlook-sender-history-addin/commands.html" />
+          <bt:Url id="Taskpane.Url" DefaultValue="https://southeastfasteners.github.io/outlook-sender-history-addin/taskpane.html" />
         </bt:Urls>
         <bt:ShortStrings>
           <bt:String id="GroupLabel" DefaultValue="Sender History" />
